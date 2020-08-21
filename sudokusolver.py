@@ -427,7 +427,7 @@ if __name__ == '__main__':
     
     So the eventual inputs would be:
     sudoku_string = '123789456456000789000000123231000000000231897000000231312978000605010908070605010'
-    grid_string = '000111222300112222300112244300115544335555544335566444337766888777766888777666888'
+    grid_string = '000111222000111222000111222333444555333444555333444555666777888666777888666777888'
     This grid_string is the default, so for standard sudokus you dont have to type it out every time.
     
     Enabling the diag argument will force the sudoku to find a solution where the diagonals adhere to the same rules as rows and columns.
