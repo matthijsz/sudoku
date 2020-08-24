@@ -26,7 +26,7 @@ full figure_like sudoku    sudoku_string per row    grid_string per row
 
 So the eventual inputs would be:
 sudoku_string = '123789456456000789000000123231000000000231897000000231312978000605010908070605010'
-grid_string = '000111222300112222300112244300115544335555544335566444337766888777766888777666888'
+grid_string = '000111222000111222000111222333444555333444555333444555666777888666777888666777888'
 ```
 This standard grid is the default for grid_string, so if you are only solving a standard sudoku you don't have to specify this.
 
