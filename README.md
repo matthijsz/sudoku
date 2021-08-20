@@ -96,6 +96,6 @@ If this is set to two the solver will guess the a number, try to solve, then gue
 `n_deep` _(int)_ is only used internally to keep track of how many guesses have been made as it uses the solve or multisolve function recursively.
 
 ### Example output
-Here's an example gif of a solution. <br/> 
+Here's an example gif of a solution (a green number represents a guess). <br/> 
 
 ![](out.gif)
